@@ -51,7 +51,7 @@ const ProcessOrder = ({ history, match }) => {
 
     dispatch(getOrderDetails(match.params.id));
   }, [dispatch, alert, error, match.params.id, isUpdated, updateError]);
-
+   console.log("from update rpoducct")
   return (
     <Fragment>
       <MetaData title="Process Order" />
