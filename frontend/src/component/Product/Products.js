@@ -81,7 +81,7 @@ const Products = ({ match }) => {
             <Slider
               value={price}
               onChange={priceHandler}
-              valueLabelDisplay="auto"
+              valueLabelDisplay="on"
               aria-labelledby="range-slider"
               min={0}
               max={150000}
