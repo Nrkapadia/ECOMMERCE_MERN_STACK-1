@@ -1,8 +1,7 @@
 footer {
   padding:  0.5vmax;
   display: flex;
-  background-color: #2D2520;
-  color: white;
+  color: black;
   margin-top: auto;
   align-items: center;
 }

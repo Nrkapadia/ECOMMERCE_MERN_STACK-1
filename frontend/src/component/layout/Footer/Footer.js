@@ -1,8 +1,8 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FbIcon from "@material-ui/icons/Facebook"
-import InstagramIcon from "@material-ui/icons/Instagram";
-import YtIcon from "@material-ui/icons/YouTube";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import FbIcon from "@material-ui/icons/Facebook"
+// import InstagramIcon from "@material-ui/icons/Instagram";
+// import YtIcon from "@material-ui/icons/YouTube";
 import "./Footer.css";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
 
      
       <div className="midFooter">
-        <div >
+        {/* <div >
 
             <a href="https://www.linkedin.com/in/nisarg-kapadia-967a191b5" target="blank">
               <LinkedInIcon />
@@ -27,9 +27,9 @@ const Footer = () => {
               <YtIcon />  
             </a>
    
-        </div>
+        </div> */}
         <div className="copyRight">
-        <p>Copyrights&copy; 2022 Ecommerce.All rights resereved.</p>
+        <p>Copyrights&copy; 2022 Deal Right</p>
         </div>
       </div>
 
